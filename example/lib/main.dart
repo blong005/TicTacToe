@@ -6,7 +6,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      //debugShowCheckedModeBanner: false,//removes degugger flag in emulator
+      debugShowCheckedModeBanner: false,//removes degugger flag in emulator
       home: HomePage(),
     );
   }
